@@ -44,7 +44,7 @@
     <!-- Bouton Play -->
     <button id="playButton">Play</button>
 
-    <!-- Iframe pour charger Bloxd.io avec ton client SilentClient -->
+    <!-- Iframe pour charger Bloxd.io -->
     <iframe id="bloxdIframe" src="https://bloxd.io" style="display:none;"></iframe>
 
     <script>
@@ -56,12 +56,13 @@
             // Affiche l'iframe de Bloxd.io
             document.getElementById("bloxdIframe").style.display = "block";
 
-            // Injecter ton script SilentClient
+            // Injecter ton script SilentClient dans le parent (page principale)
             const script = document.createElement("script");
-            script.src = "https://raw.githubusercontent.com/ItzSharpness/SilentClient-/main/silent-client.js"; // Remplace par l'URL de ton script SilentClient
+            script.src = "https://raw.githubusercontent.com/ItzSharpness/SilentClient-/main/silent-client.js"; // URL de ton script SilentClient
             document.body.appendChild(script);
         }
     </script>
 </body>
 </html>
+
 
