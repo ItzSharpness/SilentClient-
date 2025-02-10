@@ -1,4 +1,4 @@
-// Création de l'interface principale avec thème bleu/noir
+console.log("Script chargé")// Création de l'interface principale avec thème bleu/noir
 const clientUI = document.createElement("div");
 clientUI.style.position = "fixed";
 clientUI.style.top = "10px";
