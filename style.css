@@ -1,0 +1,25 @@
+/* Fond de l'écran */
+body {
+    background: linear-gradient(to bottom, #0000ff, #000000);
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+/* Logo */
+.logo-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
